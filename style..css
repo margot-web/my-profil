@@ -1,0 +1,77 @@
+body{background-color: #ffa5d0;
+	color: #d7fff1;
+	font-family: 'Roboto', serif;
+	size: 15px}
+	
+
+
+
+h1{color:#b5ffe9;
+	font-size: 45px;
+	font-family: 'Yellowtail', cursive;
+	font-weight: 900}
+ 
+h2{color: #b5ffe9;
+	size: 15px;
+	font-weight: lighter;
+	font-family: 'Roboto', sans-serif}
+
+a{text-decoration: none;
+	}
+
+a:hover {text-decoration: underline} 
+
+.text-justify{text-align: justify;}
+
+.buton{background-color: #b5ffe9;
+		border-radius: 50px;
+		color:#ffa5d0 ;
+		height: 200px;
+		width: 100px;
+		padding: 10px 20px;}
+
+/*constum design with class (99 of your design) */
+
+
+.container {
+	width: 1340px;}
+
+@media (max-width: 1200px){
+	.container {width: 1100px;}}
+
+
+@media (max-width: 1000px){
+	.container {width: 900px;}}
+
+
+@media (max-width: 800px){
+	.container {width: 700px;}}
+
+
+@media (max-width: 600px){
+	.container {width: 500px;}}
+
+
+@media (max-width: 400px){
+	.container {width: 300px;}}
+
+
+@media (max-width: 200px){
+	.container {width: 100px;}}
+
+
+.card-white {text-align: center }
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px}
+
+.list-inline li{
+	list-style: none;
+	padding: 10px;
+	display: inline;
+	font-size: 30px}
+
+.list-inline a :hover{font-size: 40px}
+
+.Ecole{list-style: none}
